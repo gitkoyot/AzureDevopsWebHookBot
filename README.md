@@ -4,7 +4,8 @@ The aim of this was to have notification in google chat room on specific actions
 
 # Currently supported features
    - send message to google chat room on pull request creation
-   - send message to google chat room on specific comments (like "PTAL" - will tell reviewers that author asks reviewers "Please Take Another Look"
+   - send message to google chat room on specific comments (like "PTAL" - will tell reviewers that author asks reviewers "Please Take Another Look")
+   - send message to google chat room when pipeline fails (will mention person with @annotation, which pipeline failed(with link) and detailed message)
 
 # Requirements
   - Azure account
